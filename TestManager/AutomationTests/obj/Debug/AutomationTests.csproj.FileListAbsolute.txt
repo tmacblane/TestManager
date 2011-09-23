@@ -1,0 +1,5 @@
+C:\Temp\TestManager\TestManager\AutomationTests\bin\Debug\AutomationTests.dll
+C:\Temp\TestManager\TestManager\AutomationTests\bin\Debug\AutomationTests.pdb
+C:\Temp\TestManager\TestManager\AutomationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\TestManager\TestManager\AutomationTests\obj\Debug\AutomationTests.dll
+C:\Temp\TestManager\TestManager\AutomationTests\obj\Debug\AutomationTests.pdb

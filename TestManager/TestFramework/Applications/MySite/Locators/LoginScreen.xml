@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+	<MessagePanel>
+		<ErrorText>ctl00_mainContentPlaceHolder_mimformationSection_ctl04_mimformationTextCell</ErrorText>
+		<ShowHideMessagesLink>//div[@id='ctl00_mainContentPlaceHolder_mimformationSection_mimformationSectionControlsDiv']</ShowHideMessagesLink>
+		<ShowMessagesLink>//div[@id='ctl00_mainContentPlaceHolder_mimformationSection_mimformationSectionControlsDiv']/a[@id='more']</ShowMessagesLink>
+		<HideMessagesLink>//div[@id='ctl00_mainContentPlaceHolder_mimformationSection_mimformationSectionControlsDiv']/a[@id='less']</HideMessagesLink>
+	</MessagePanel>
+	<LoginPanel>
+		<EmailAddressTextbox>ctl00_mainContentPlaceHolder_loginInfoBox_emailTextBox</EmailAddressTextbox>
+		<EmailAddressMissingErrorImage>ctl00_mainContentPlaceHolder_loginInfoBox_ValidatorInlineErrorDetails1_indicatorImage</EmailAddressMissingErrorImage>
+		<EmailAddressMissingErrorImageText>//span[@id='ctl00_mainContentPlaceHolder_loginInfoBox_emailRequiredFieldValidator']/div</EmailAddressMissingErrorImageText>
+		<EmailAddressIncorrectErrorImage>ctl00_mainContentPlaceHolder_loginInfoBox_ValidatorInlineErrorDetails2_indicatorImage</EmailAddressIncorrectErrorImage>
+		<EmailAddressIncorrectErrorImageText>//span[@id='ctl00_mainContentPlaceHolder_loginInfoBox_emailCustomValidator']/div</EmailAddressIncorrectErrorImageText>
+		<PasswordTextbox>ctl00_mainContentPlaceHolder_loginInfoBox_passwordTextBox</PasswordTextbox>
+		<PasswordMissingErrorImage>ctl00_mainContentPlaceHolder_loginInfoBox_ValidatorInlineErrorDetails3_indicatorImage</PasswordMissingErrorImage>
+		<PasswordMissingErrorImageText>//span[@id='ctl00_mainContentPlaceHolder_loginInfoBox_passwordRequiredFieldValidator']/div</PasswordMissingErrorImageText>
+		<LoginButton>//div[@id='ctl00_mainContentPlaceHolder_loginInfoBox_loginButton']/div</LoginButton>
+		<ForgotPasswordLink>//a[contains(text(),'Forgot your password?')]</ForgotPasswordLink>
+		<SignUpNowLink>//a[contains(text(),'Sign up now.')]</SignUpNowLink>
+		<ContactUsLink>//a[contains(text(),'Contact us.')]</ContactUsLink>
+	</LoginPanel>
+
+	<!--Obsolete Items to remove-->
+	<QuestionsPanel>
+		<ChatNowButton>//div[@id='ctl00_mainContentPlaceHolder_QuestionsHelpBox1_innerHelpBox_liveChatButton']/div</ChatNowButton>
+	</QuestionsPanel>
+	<RelatedLinksPanel>
+		
+	</RelatedLinksPanel>
+</Locators>
